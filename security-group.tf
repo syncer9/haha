@@ -38,12 +38,7 @@ ingress {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-ingress {
-    from_port = 1599
-    to_port = 0
-    protocol = "-1"
-    cidr_blocks = ["0.0.0.0/0"]
-  }
+
 
   egress 
   {
